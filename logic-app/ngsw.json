@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1617094267533,
+  "timestamp": 1617108678051,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/index.html",
-        "/main.fbc1aee216ab717cee90.js",
+        "/main.48a417c8c5ba05d0c0c0.js",
         "/manifest.webmanifest",
         "/polyfills.35a5ca1855eb057f016a.js",
         "/runtime.acf0dec4155e77772545.js",
@@ -47,7 +47,22 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "gridest.github.io",
+      "patterns": [
+        "https:\\/\\/gridest\\.github\\.io\\/logic-app\\/"
+      ],
+      "strategy": "performance",
+      "maxSize": 5,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
   "hashTable": {
     "/Roboto-Regular.03523cf578d69fa92322.ttf": "096c9245b6a192d1403a82848e104a65f578a8ec",
     "/assets/fonts/Roboto-Regular.ttf": "096c9245b6a192d1403a82848e104a65f578a8ec",
@@ -64,8 +79,8 @@
     "/assets/images/bg.jpg": "b95d4686b6e6fedeebd70a0ad5934500c4ac2986",
     "/assets/images/flowchart.png": "4846f8afd45e90f22c07c2ee8db87adda183b4f6",
     "/bg.e633128879c2d4ef54b7.jpg": "b95d4686b6e6fedeebd70a0ad5934500c4ac2986",
-    "/index.html": "4bfc232e778befea87e1a790df6935aaed88b1b4",
-    "/main.fbc1aee216ab717cee90.js": "791fac270a217594d31b3f4aa0df29180a9afb86",
+    "/index.html": "aa5674b671bb8f5fb4f9121df32603e44b3168c9",
+    "/main.48a417c8c5ba05d0c0c0.js": "367a2b68589b135353923bc4e72f08d9902ea142",
     "/manifest.webmanifest": "c2c197a37bb399e9209679d6de2f1f60026b23ba",
     "/polyfills.35a5ca1855eb057f016a.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
     "/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
