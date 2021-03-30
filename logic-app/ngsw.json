@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1617108678051,
-  "index": "/index.html",
+  "timestamp": 1617118041983,
+  "index": "/logic-app/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -47,22 +47,7 @@
       "patterns": []
     }
   ],
-  "dataGroups": [
-    {
-      "name": "gridest.github.io",
-      "patterns": [
-        "https:\\/\\/gridest\\.github\\.io\\/logic-app\\/"
-      ],
-      "strategy": "performance",
-      "maxSize": 5,
-      "maxAge": 3600000,
-      "timeoutMs": 5000,
-      "cacheQueryOptions": {
-        "ignoreVary": true
-      },
-      "version": 1
-    }
-  ],
+  "dataGroups": [],
   "hashTable": {
     "/Roboto-Regular.03523cf578d69fa92322.ttf": "096c9245b6a192d1403a82848e104a65f578a8ec",
     "/assets/fonts/Roboto-Regular.ttf": "096c9245b6a192d1403a82848e104a65f578a8ec",
