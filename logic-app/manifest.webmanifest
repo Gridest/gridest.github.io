@@ -4,8 +4,8 @@
   "theme_color": "#2d3b44",
   "background_color": "#fafafa",
   "display": "standalone",
-  "scope": "./",
-  "start_url": "./",
+  "scope": "/logic-app/",
+  "start_url": "/logic-app/",
   "icons": [
   {
         "src": "assets/icons/icon-48x48.png",
